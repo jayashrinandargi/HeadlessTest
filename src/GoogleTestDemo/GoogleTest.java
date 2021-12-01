@@ -16,7 +16,7 @@ public class GoogleTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\suraj\\eclipse-workspace\\libs\\chromedriver.exe");
 		
 	    driver=new ChromeDriver();
-	    
+	    System.out.println("In the Invoke Browser function");
 	    driver.manage().window().maximize();
 	    
 	    driver.manage().deleteAllCookies();
